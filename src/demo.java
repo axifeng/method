@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class demo {
@@ -20,6 +21,7 @@ public class demo {
         System.out.println(str1);
         System.out.println("方法二输出的字符串为：");
         System.out.println(str.toUpperCase());//toUpperCase()将字母转换为大写
+        System.out.println(str.toLowerCase());
     }
 
 }
